@@ -1,0 +1,7 @@
+Put the IPs of the devices you want to run the commands on in IPs.txt
+
+Put the non config commands you want to run in Lines.txt
+
+The program will prompt you for the account to login to the devices, run the commands on the devices then put all the output in 1 file.
+
+You should be able to easly split the devices into diffrent output files just by setting the file_name = ip+.txt in the send_lines function.
